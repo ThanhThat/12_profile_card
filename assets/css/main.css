@@ -91,6 +91,10 @@ img {
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
+.profile-job {
+  color: #f2726a;
+  margin: 0.8rem 0 2.6rem 0;
+}
 .profile-social-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,6 +111,15 @@ img {
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
+.profile-social-list a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+.profile-social-list a:hover {
+  color: #f2726a;
+}
 .profile-btn {
   display: inline-block;
   padding: 1.4rem 2rem;
@@ -122,8 +135,4 @@ img {
 }
 .profile-btn:hover {
   background-color: #f2726a;
-}
-.profile-job {
-  color: #f2726a;
-  margin: 0.8rem 0 2.6rem 0;
 }

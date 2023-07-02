@@ -81,6 +81,11 @@ img {
     transition: 0.25s;
   }
 
+  &-job {
+    color: #f2726a;
+    margin: 0.8rem 0 2.6rem 0;
+  }
+
   &-social-list {
     display: flex;
     justify-content: space-between;
@@ -92,6 +97,16 @@ img {
     color: white;
 
     transition: 0.25s;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.25s;
+
+      &:hover {
+        color: #f2726a;
+      }
+    }
   }
 
   &-btn {
@@ -112,10 +127,5 @@ img {
     &:hover {
       background-color: #f2726a;
     }
-  }
-
-  &-job {
-    color: #f2726a;
-    margin: 0.8rem 0 2.6rem 0;
   }
 }
